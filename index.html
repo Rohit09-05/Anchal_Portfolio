@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Anchal – (Software Developer). Explore projects, skills, and contact information."
+    />
+    <title>Anchal - Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="image/anchal.jpeg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="chatbot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="image/anchal_shortcut_icon.jpeg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <a
+      href="#home"
+      class="skip-link"
+      style="
+        position: absolute;
+        left: -999px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      "
+      >Skip to main content</a
+    >
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main">
+      <div class="container">
+        <div class="logo">
+          <h1 id="logo-text">Anchal</h1>
+        </div>
+        <button
+          class="menu-toggle"
+          id="mobile-menu"
+          aria-label="Toggle menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-menu" id="primary-navigation" role="menubar">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button
+              id="theme-toggle"
+              class="theme-btn"
+              aria-label="Toggle dark mode"
+              title="Toggle theme"
+            >
+              <i class="fas fa-moon" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div id="particles-js"></div>
+      <div class="container">
+        <div
+          class="hero-content"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h1 class="animate-text">
+            Hello, I'm <span class="highlight">Anchal</span>
+          </h1>
+          <h2 class="animate-text delay-1">
+            I'm a <span id="typing-text"></span>
+          </h2>
+          <p class="animate-text delay-2">
+            Welcome to my personal website where I showcase my work and skills.
+          </p>
+          <div class="hero-buttons animate-text delay-3">
+            <a href="#contact" class="btn primary-btn">Contact Me</a>
+            <a href="#projects" class="btn secondary-btn">View My Work</a>
+          </div>
+          <div class="social-icons animate-text delay-4">
+            <a
+              href="https://www.linkedin.com/in/anchal-gupta🌸-a81b04268"
+              class="social-link"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-linkedin" aria-hidden="true"></i
+            ></a>
+            <a
+              href="https://github.com/gupta-anchal01"
+              class="social-link"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="hero-image animate-text delay-2"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <div class="profile-container">
+            <div class="profile-circle">
+              <img
+                src="image/anchal.jpeg"
+                alt="Portrait of Anchal"
+                id="profile-img"
+                width="340"
+                height="340"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="about section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2>About Me</h2>
+      <div class="underline"></div>
+    </div>
+
+    <div class="about-content">
+      <div class="about-text" data-aos="fade-right" data-aos-duration="800">
+        <h3>Get to know me!</h3>
+
+        <p>
+          <span class="highlight">Anchal</span> is a
+          <span class="highlight">Full-Stack Developer</span> with hands-on
+          experience in building
+          <span class="highlight">scalable and user-focused web applications</span>.
+          She focuses on writing clean, efficient code with attention to
+          performance and reliability.
+        </p>
+
+        <p>
+          She works confidently across
+          <span class="highlight">frontend, backend, and API development</span>,
+          and adapts quickly to new frameworks, tools, and workflows. Her work
+          emphasizes maintainability, clarity, and practical problem-solving.
+        </p>
+
+        <p>
+          She applies
+          <span class="highlight">analytical and logical thinking</span>
+          to test, debug, and improve applications, while continuously learning
+          and exploring modern technologies to strengthen her engineering skills.
+        </p>
+
+        <div class="about-buttons">
+          <a
+            href="Resume/AnchalResume.pdf"
+            class="btn primary-btn"
+            id="download-cv"
+            >Resume</a
+          >
+        </div>
+      </div>
+
+      <div
+        class="about-details"
+        data-aos="fade-left"
+        data-aos-duration="800"
+      >
+        <div class="detail-item">
+          <i class="fas fa-user-graduate"></i>
+          <div>
+            <h4>Education</h4>
+            <p>
+              Bachelor of Technology (Computer Science Engineering),<br />
+              Meerut Institute of Technology, Meerut
+            </p>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fas fa-briefcase"></i>
+          <div>
+            <h4>Experience</h4>
+            <p>Software Quality Assurance Engineer at KenboxTech Pvt. Ltd.</p>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Noida, UP</p>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fas fa-language"></i>
+          <div>
+            <h4>Languages</h4>
+            <p>English, Hindi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>My Projects</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">ML Models</button>
+            <button class="filter-btn" data-filter="app">Applications</button>
+            <button class="filter-btn" data-filter="competition">Competitions</button>
+        </div> -->
+        <div class="projects-grid">
+          <!-- Project items will be dynamically generated with JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>My Skills</h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="skills-container">
+          <!-- Programming & Development -->
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <h3>Programming & Development</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/programming/python.png" alt="" /></i>
+                </div>
+                <h4>Python</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/programming/javascript.png" alt="" /></i>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/programming/html.png" alt="" /></i>
+                </div>
+                <h4>HTML5</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/programming/css.png" alt="" /></i>
+                </div>
+                <h4>CSS3</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/programming/sql.png" alt="" /></i>
+                </div>
+                <h4>SQL</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/programming/mongo.png" alt="" /></i>
+                </div>
+                <h4>MongoDB</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Framework and libraries-->
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <h3>Framework and libraries</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/frameworklib/node.png" alt="" /></i>
+                </div>
+                <h4>Node.js</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 92%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/frameworklib/express.png" alt="" /></i>
+                </div>
+                <h4>Express.js</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/frameworklib/react.png" alt="" /></i>
+                </div>
+                <h4>React</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+            
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/frameworklib/tailwindcss.png" alt="" /></i>
+                </div>
+                <h4>Tailwind CSS</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i><img src="image/frameworklib/redux.png" alt="" /></i>
+                </div>
+                <h4>Redux Toolkit</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 87%"></div>
+                </div>
+                <span class="skill-percentage"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="tech-stack section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <!-- <h2>My Tech Stack</h2> -->
+          <!-- <div class="underline"></div> -->
+        </div>
+
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+          <h3>Tools & Platforms</h3>
+          <div class="tech-grid">
+            <!-- Git -->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt="Git"
+              />
+              <span>Git</span>
+            </div>
+
+            <!-- GitHub -->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub"
+              />
+              <span>GitHub</span>
+            </div>
+
+            <!-- GitHub Actions -->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/githubactions.svg"
+                alt="GitHub Actions"
+              />
+              <span>GitHub Actions</span>
+            </div>
+
+            <!-- VS Code -->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                alt="VS Code"
+              />
+              <span>VS Code</span>
+            </div>
+
+            <!-- Postman -->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                alt="Postman"
+              />
+              <span>Postman</span>
+            </div>
+
+            <!-- Intellij -->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://www.helenjoscott.com/wp-content/uploads/2020/09/1200px-IntelliJ_IDEA_Logo.png"
+                alt="Intellij"
+              />
+              <span>Intellij IDEA</span>
+            </div>
+
+            <!-- open ai-->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://images.indianexpress.com/2024/12/OpenAI.jpg"
+                alt="Openai"
+              />
+              <span>Open AI</span>
+            </div>
+
+            <!-- open ai-->
+            <div class="tech-item" data-tilt>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0E1o7qJKUg6HZJOfvwgrPqumY8-LDDDM8w&s"
+                alt="Selenium"
+              />
+              <span>Selenium</span>
+            </div>
+
+
+            <!--                &lt;!&ndash; Azure / Microsoft Graph &ndash;&gt;-->
+            <!--                <div class="tech-item" data-tilt>-->
+            <!--                    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/microsoftazure.svg" alt="Azure">-->
+            <!--                    <span>Azure / Microsoft Graph</span>-->
+            <!--                </div>-->
+
+            <!--                &lt;!&ndash; NetBox &ndash;&gt;-->
+            <!--                <div class="tech-item" data-tilt>-->
+            <!--                    <img src="https://raw.githubusercontent.com/netbox-community/netbox/release/logo/netbox-color.svg" alt="NetBox">-->
+            <!--                    <span>NetBox</span>-->
+            <!--                </div>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Contact Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+          <div
+            class="contact-info"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
+            <h3>Get In Touch</h3>
+            <p>
+              Feel free to reach out to me for any questions or opportunities!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>anchal.kumari.cs.2021@mitmeerut.ac.in</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Noida, UP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Code snippet showcase -->
+          <div
+            class="contact-code"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
+            <div class="code-snippet-container">
+              <div class="code-header">
+                <span class="code-title">JavaScript DataPipeline </span>
+                <div class="code-actions">
+                  <span class="code-dot red"></span>
+                  <span class="code-dot yellow"></span>
+                  <span class="code-dot green"></span>
+                </div>
+              </div>
+              <pre><code class="language-javascript">
+
+class DataPipeline {
+    constructor(data) {
+        this.data = data;
+    }
+
+    normalize() {
+        const max = Math.max(...this.data);
+        const min = Math.min(...this.data);
+
+        return this.data.map(value => (value - min) / (max - min));
+    }
+
+    filter(threshold) {
+        return this.data.filter(value => value > threshold);
+    }
+
+    summary() {
+        const total = this.data.reduce((sum, v) => sum + v, 0);
+        const mean = total / this.data.length;
+
+        const variance = this.data.reduce(
+            (acc, v) => acc + Math.pow(v - mean, 2),
+            0
+        ) / this.data.length;
+
+        return {
+            count: this.data.length,
+            mean: mean.toFixed(2),
+            variance: variance.toFixed(2),
+        };
+    }
+}
+
+
+const rawData = [12, 18, 25, 32, 45, 50, 62, 78];
+
+const pipeline = new DataPipeline(rawData);
+
+const normalizedData = pipeline.normalize();
+
+
+const filteredData = pipeline.filter(0.4);
+
+
+const stats = pipeline.summary();
+
+console.log("Normalized Data:", normalizedData);
+console.log("Filtered Data:", filteredData);
+console.log("Statistics Summary:", stats);
+</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Anchal</h2>
+          </div>
+          <p>Thanks for visiting my portfolio website.</p>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/anchal-gupta🌸-a81b04268"
+              class="social-link"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-linkedin" aria-hidden="true"></i
+            ></a>
+            <a
+              href="https://github.com/gupta-anchal01"
+              class="social-link"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year"></span> Anchal. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"
+      defer
+    ></script>
+    <script src="ab.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="chatbot.js" defer></script>
+  </body>
+</html>
